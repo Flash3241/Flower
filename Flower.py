@@ -50,8 +50,16 @@ turtle.bgcolor("black")
 turtle.color("green")
 turtle.left(90)  # Start facing upwards
 
+
+#instantly draw the flower
+#turtle.speed(0)           # Fastest speed
+#turtle.hideturtle()       # Hide turtle icon
+#turtle.tracer(0, 0)       # Disable auto-refresh
+#turtle.bgcolor("black")
+#turtle.left(90)           # Point upwards
+
 # Draw the flower pattern starting from the root with a smaller initial size
-draw_flower(50)
+draw_flower(60)
 
 # Write the text on the screen
 write_text()
